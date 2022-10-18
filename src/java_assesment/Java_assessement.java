@@ -29,6 +29,8 @@ public class Java_assessement {
 	    WebElement register1 = driver.findElement(By.xpath("(//i[@class='icon-chevron-right right'])[3]"));
 	    JavascriptExecutor js5=(JavascriptExecutor)driver;
         js5.executeScript("arguments[0].click();", register1);
+        System.out.println("change");
+        System.out.println("change it");
 	    
 //        String error = driver.findElement(By.xpath("//div[@class='alert alert-danger']")).getText();
        
